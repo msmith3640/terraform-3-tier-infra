@@ -36,6 +36,6 @@ variable "availability_zone" {
 }
 
 variable "tags" {
-  type = map
+  type = map(string)
   description = "tags"
 }
